@@ -2,6 +2,7 @@
 .btn {
   @include heading-font;
   font-weight: 700;
+  box-shadow: none;
 }
 
 .btn-xl {
@@ -18,9 +19,33 @@
     background-color: darken($gray-900, 7.5%) !important;
     border-color: darken($gray-900, 7.5%) !important;
     color: white;
+    border: none;
+    box-shadow: none;
   }
   &:active,
   &:focus {
+    box-shadow: none;
+  }
+}
+#mainButton,#mainButton2{
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($gray-900, 7.5%) !important;
+    border-color: darken($gray-900, 7.5%) !important;
+    color: white;
+    border: none;
+    box-shadow: none;
+  }
+}
+#menuButton{
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($gray-900, 7.5%) !important;
+    border-color: darken($gray-900, 7.5%) !important;
+    color: white;
+    border: none;
     box-shadow: none;
   }
 }

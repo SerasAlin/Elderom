@@ -85,6 +85,8 @@ img::-moz-selection {
 .btn {
   font-family: "Times New Roman", Times, serif;
   font-weight: 700;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .btn-xl {
@@ -101,9 +103,30 @@ img::-moz-selection {
   background-color: #101214 !important;
   border-color: #101214 !important;
   color: white;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .btn-primary:active, .btn-primary:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#mainButton:active, #mainButton:focus, #mainButton:hover, #mainButton2:active, #mainButton2:focus, #mainButton2:hover {
+  background-color: #101214 !important;
+  border-color: #101214 !important;
+  color: white;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#menuButton:active, #menuButton:focus, #menuButton:hover {
+  background-color: #101214 !important;
+  border-color: #101214 !important;
+  color: white;
+  border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
