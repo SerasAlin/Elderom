@@ -20,11 +20,15 @@ a {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
+  font-weight: 300;
+  @include heading-font;
+}
+
+h2{
   font-weight: 700;
   @include heading-font;
 }
@@ -68,4 +72,22 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+#secondTitle{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+#portfolio{
+  background: url("/img/cool-background (1).png");
+}
+
+#about{
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.timeline:before {
+  background-color: $primary!important;
 }
